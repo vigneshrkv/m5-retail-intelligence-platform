@@ -1,0 +1,10 @@
+The M5 Forecasting dataset is too large for GitHub.
+
+Download it from:
+https://www.kaggle.com/competitions/m5-forecasting-accuracy/data
+
+After downloading, place these files in this folder:
+- calendar.csv
+- sales_train_evaluation.csv
+- sales_train_validation.csv
+- sell_prices.csv
