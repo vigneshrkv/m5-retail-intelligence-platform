@@ -1,0 +1,42 @@
+{
+  "features": [
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "year",
+    "quarter",
+    "is_weekend",
+    "is_month_start",
+    "is_month_end",
+    "week_of_year",
+    "lag_28",
+    "lag_35",
+    "lag_42",
+    "lag_56",
+    "roll_mean_7",
+    "roll_mean_14",
+    "roll_mean_28",
+    "roll_mean_56",
+    "roll_std_7",
+    "roll_std_14",
+    "roll_std_28",
+    "roll_std_56",
+    "sell_price",
+    "price_change_pct",
+    "price_vs_dept",
+    "price_vs_store",
+    "has_event",
+    "event_type_encoded",
+    "snap",
+    "days_to_christmas",
+    "item_id_enc",
+    "dept_id_enc",
+    "cat_id_enc"
+  ],
+  "cat_features": [
+    "dept_id_enc",
+    "cat_id_enc",
+    "event_type_encoded"
+  ],
+  "best_model": "XGBoost"
+}
